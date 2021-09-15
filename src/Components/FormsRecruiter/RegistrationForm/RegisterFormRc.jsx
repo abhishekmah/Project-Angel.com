@@ -293,7 +293,7 @@ function RegisterForm() {
   }
 
   const handleSignUp = async () => {
-    await axios.post("http://localhost:3001/recruiter", {
+    await axios.post("https://abhi1-app-test.herokuapp.com/recruiter", {
       full_name: name,
       email: email,
       pass: pass,

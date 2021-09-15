@@ -114,7 +114,7 @@ const Body = styled.div`
 width: fit-content;
 height: 760px;
 margin-top: 30px;
-background-image: url('https://assets.website-files.com/5f73949f7a2eb05feb43d0a4/5f763df72f672ebed4d83053_home-hero.jpg');
+/* background-image: url('A.jpg'); */
 background-repeat: no-repeat;
 background-size:contain;
 `
@@ -122,6 +122,7 @@ const Left1 = styled.div`
 
 width: 42%;
 margin-left: 140px;
+margin-top: -740px;
 h1{
   font-size: 60px;
   font-weight: 800;
@@ -178,13 +179,13 @@ img{
 const Footer = styled.div`
 width: 100%;
 height: 500px;
-background-image: url('https://assets.website-files.com/5f73949f7a2eb05feb43d0a4/5f7719aef9133e498f52b164_footer_bg.jpg');
+/* background-image: url('B.jpg'); */
 `;
 
 const Div = styled.div`
 width: 80%;
 margin-left: 250px;
-margin-top: 100px;
+margin-top: -100px;
 display: grid;
 grid-template-columns: 25% 25% 25% 25%;
 
@@ -232,6 +233,7 @@ export default function Main() {
       </Main1>
 
       <Body>
+      <img src="A.jpg" width="100%"/>
         <Left1>
           <br />
           <br />
@@ -259,6 +261,7 @@ export default function Main() {
         </Midimg>
 
         <Footer>
+          <img src="B.jpg" width="100%"/>
           <Div>
             <div>
               <h1>Recruit</h1>
